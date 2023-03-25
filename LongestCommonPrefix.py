@@ -20,7 +20,3 @@ def longestCommonPrefix(a):
     pre = a[0][0: i]
     return pre
   
-if __name__ == "__main__":
-  
-    input = ["geeksforgeeks", "geeks", "geek", "geezer"]
-    print("The longest Common Prefix is :", longestCommonPrefix(input))
