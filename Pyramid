@@ -1,0 +1,17 @@
+def Pyramid(numofLevels):
+
+    cnt = 1
+    while(cnt <= numofLevels):
+        numofSpace = numofLevels - cnt
+        spacecnt = 1
+        while(spacecnt <= numofSpace):
+            print(" ", end="")
+            spacecnt += 1
+        numcnt = 1
+        while(numcnt <= cnt):
+            print(cnt, " ", end="")
+            numcnt += 1
+        print("\n")
+        cnt += 1
+
+Pyramid(numofLevels=7)
